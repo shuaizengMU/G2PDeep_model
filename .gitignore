@@ -1,2 +1,11 @@
+public_data/Soy50K/*.csv
+public_data/TCGA/kfold/*.csv
+public_data/SoyNAM/*.csv
+
+results/*/*.csv
+results/*/*.png
+
 .vscode
-__pycache__
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
