@@ -9,3 +9,19 @@ Run following shell script to download public dataset we used to train models.
 ```
 sh run_download_public_data.sh
 ```
+
+## Running the program (SoyNAM dataset)
+# For SoyNAM data with height quantative phenotype.
+python train_model.py --data_dir ./public_data/SoyNAM --result_dir ./results/single_fold --dataset_type height
+
+# For SoyNAM data with oil quantative phenotype.
+python train_model.py --data_dir ./public_data/SoyNAM --result_dir ./results/single_fold --dataset_type oil
+
+# For SoyNAM data with moisture quantative phenotype.
+python train_model.py --data_dir ./public_data/SoyNAM --result_dir ./results/single_fold --dataset_type moisture
+
+# For SoyNAM data with protein quantative phenotype.
+python train_model.py --data_dir ./public_data/SoyNAM --result_dir ./results/single_fold --dataset_type protein
+
+# For SoyNAM data with yield quantative phenotype.
+python train_model.py --data_dir ./public_data/SoyNAM --result_dir ./results/single_fold --dataset_type yield
